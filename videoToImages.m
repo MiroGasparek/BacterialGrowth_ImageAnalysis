@@ -25,7 +25,7 @@ ii = 1;
 
 while hasFrame(bacteria_video)
     img = readFrame(bacteria_video);
-    filename = [sprintf('%03d',ii) '.jpg'];
+    filename = [sprintf('%03d',ii) '.tif'];
     fullname = fullfile('images', filename);
     imwrite(img, fullname); % Write out to a JPEG file (img1.jpg, img2.jpg, etc.)
     ii = ii+1;
