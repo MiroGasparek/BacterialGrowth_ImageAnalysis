@@ -18,7 +18,7 @@ bacteria_video = VideoReader('elowitz_2005_movieS1.mov');
 
 % Create the image sequence:
 % Loop through the video, read each frame into a width-by-height-by-3 array
-% named 'img'. Write out each image to a JPEG file with a name in the form
+% named 'img'. Write out each image to a .tif file with a name in the form
 % of imgN.jpg, where N is the frame number
 
 ii = 1;
